@@ -1,0 +1,6 @@
+ghostscript
+tesseract
+jbig2enc
+pngquant
+unpaper
+tesseract-ocr-heb
