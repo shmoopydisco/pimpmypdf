@@ -7,11 +7,7 @@ def run_ocr(input_file, output_file):
     ocrmypdf.ocr(
         input_file=input_file,
         output_file=output_file,
-        deskew=True,
-        clean=True,
         rotate_pages=True,
-        remove_background=True,
-        # optimize=3,
         force_ocr=True,
         progress_bar=False,
     )
